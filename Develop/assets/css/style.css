@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header .link-list {
+.link-list {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header .link-list ul {
+.link-list ul {
     list-style-type: none;
 }
 
-.header .link-list ul li {
+.link-list ul li {
     display: inline-block;
     margin-left: 25px;
 }
