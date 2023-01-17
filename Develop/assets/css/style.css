@@ -15,6 +15,8 @@ body {
     color: #ffffff;
 }
 
+/* no need for a seperate class for the h1 element as it is the only h1 element in the header*/
+/* if there were more h1 elements I would*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.link-list {
+.nav-list {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,23 +37,30 @@ body {
 
 .link-list ul {
     list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
 }
+
+/* left ul/li as are because adding a 
+bunch of classes to the list items would make the HTML file a more messy them I would like
+*/
 
 .link-list ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.link-list a {
+.nav-links {
     color: #ffffff;
     text-decoration: none;
 }
+
 
 p {
     font-size: 16px;
 }
 
-.hero {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
