@@ -35,7 +35,7 @@ body {
     
 }
 
-.link-list ul {
+.nav-list ul {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -45,7 +45,7 @@ body {
 bunch of classes to the list items would make the HTML file a more messy them I would like
 */
 
-.link-list ul li {
+.nav-list ul li {
     display: inline-block;
     margin-left: 25px;
 }
