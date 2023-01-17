@@ -30,6 +30,7 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
 }
 
 .link-list ul {
@@ -59,23 +60,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+.main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.main-content-section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,47 +75,20 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.main-content-img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+/* gave own id selector because this sectiosn image was opposite of the others*/
+
+#online-rep-management-img { 
+    float: right;
+    margin-left: 25px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.main-content-header {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -168,6 +132,8 @@ Moved benefits class below the SEO class because the SEO class comes before bene
     text-align: center;
 }
 
-.footer h2 {
+/* changed to class so it flows well with the other element names*/
+
+.footer-header { 
     font-size: 20px;
 }
