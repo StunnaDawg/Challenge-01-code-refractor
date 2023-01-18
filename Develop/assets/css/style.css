@@ -26,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.nav-list {
+.nav-list-header {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,17 +35,17 @@ body {
     
 }
 
-.nav-list ul {
+.nav-header-ul {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-/* left ul/li as are because adding a 
+/* left li as is because adding a 
 bunch of classes to the list items would make the HTML file a more messy them I would like
 */
 
-.nav-list ul li {
+.nav-header-ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,8 +55,9 @@ bunch of classes to the list items would make the HTML file a more messy them I 
     text-decoration: none;
 }
 
+/* named "section-paragraph" as it is used for every <p> element on the main page */
 
-p {
+.section-paragraph {
     font-size: 16px;
 }
 
