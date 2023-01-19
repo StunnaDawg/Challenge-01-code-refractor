@@ -65,7 +65,7 @@ bunch of classes to the list items would make the HTML file a more messy them I 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
